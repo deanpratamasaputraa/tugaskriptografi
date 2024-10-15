@@ -3,6 +3,7 @@
 # KELAS : TI.22.A1
 # NIM : 312210114
 
+```
 def generate_matrix(kunci):
     kunci = ''.join(sorted(set(kunci), key=lambda k: kunci.index(k)))
     alfabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"
@@ -94,5 +95,6 @@ print(f"\nPlaintext 3: {plaintext3}")
 print(f"Teks Enkripsi 3: {ciphertext3}")!
 
 print(f"Teks Dekripsi 3: {decrypted_text3}")
+```
 ![Screenshot (24)](https://github.com/user-attachments/assets/c7a45f76-3f38-47fc-afbf-6564dffdc121)
 
